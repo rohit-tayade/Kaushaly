@@ -9,10 +9,10 @@ const Footer = () => {
           <div className="md:col-span-2">
             <a href="#home" className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 rounded-xl bg-secondary flex items-center justify-center">
-                <Sparkles className="w-5 h-5 text-primary" />
+               <img src="/favicon.ico" alt="Kaushlya" className="w-10 h-10 rounded-full object-cover" /> 
               </div>
               <span className="font-bold text-xl">
-                AI Career<span className="text-secondary">Nav</span>
+                KAUSHALY<span className="text-secondary"></span>
               </span>
             </a>
             <p className="text-primary-foreground/70 max-w-md">
@@ -63,7 +63,7 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="pt-8 border-t border-primary-foreground/20 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-primary-foreground/60">
-            © 2024 AI Career Navigator. All rights reserved.
+            © 2026-27 KAUSHALY Career. All rights reserved to the Devlopers & Team .
           </p>
           <div className="flex gap-6 text-sm text-primary-foreground/60">
             <a href="#" className="hover:text-secondary transition-colors">Privacy Policy</a>

@@ -39,7 +39,7 @@ const HeroSection = () => {
               transition={{ delay: 0.2, duration: 0.6 }}
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-sky-pale border border-secondary/30 mb-6"
             >
-              <Sparkles className="w-4 h-4 text-secondary" />
+              <img src="/favicon.ico" alt="Kaushlya" className="w-10 h-10 rounded-full object-cover" />
               <span className="text-sm font-medium text-primary">AI-Powered Career Intelligence</span>
             </motion.div>
 

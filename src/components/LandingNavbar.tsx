@@ -73,10 +73,12 @@ const LandingNavbar = () => {
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2 group">
               <div className="w-10 h-10 rounded-xl gradient-bg flex items-center justify-center">
-                <Sparkles className="w-5 h-5 text-primary-foreground" />
+                <img src="/favicon.ico" alt="Kaushlya" className="w-10 h-10 rounded-full object-cover" />
               </div>
               <span className="font-bold text-xl text-primary">
-                AI Career<span className="text-secondary">Nav</span>
+               
+KAUSHALY
+<span className="text-secondary"></span>
               </span>
             </Link>
 
@@ -101,7 +103,7 @@ const LandingNavbar = () => {
             {/* CTA Button */}
             <div className="hidden md:block">
               <button onClick={handleGetStarted} className="btn-primary inline-flex items-center gap-2">
-                <Sparkles className="w-4 h-4" />
+               
                 Get Started
               </button>
             </div>
